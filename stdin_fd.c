@@ -6,7 +6,7 @@
 #include <string.h>
 #include <slurm/spank.h>
 
-SPANK_PLUGIN(stdio_fds, 1);
+SPANK_PLUGIN(stdin_fd, 1);
 
 #define ENSURE_STDIN_VAR "SLURM_SPANK_ENSURE_STDIN"
 
